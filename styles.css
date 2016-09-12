@@ -1,0 +1,35 @@
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background: #263238;
+  color: #fff;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  text-align: center;
+}
+
+body .dg.main {
+  width: 80vw !important;
+  float: none;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  margin-right: 5vw;
+  margin-left: 5vw;
+}
+
+button {
+  padding: 20px;
+  border-radius: 8px;
+  font-size: 20px;
+  color: #607D8B;
+  background: #fff;
+  border: none;
+  cursor: pointer;
+}
+
+#controls-container {
+  display: none;
+  width: 90vw;
+}
